@@ -12,7 +12,7 @@ let phoneSchema = new Schema({
   number: {type: String}
 }, {_id: false})
 
-let productSchema = new Schema({
+let productsSchema = new Schema({
   product: {type:String},
   cost: {type: Number},
   quantity: {type: Number, required: true},
